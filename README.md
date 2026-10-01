@@ -1,21 +1,26 @@
-# Multi Plaza Website — Railway Ready
+# Multi Plaza Aizawl — SEO + 9-page Product Catalogue
 
-This is a static HTML/CSS/JS website with a tiny Node.js server so it can be deployed directly on Railway.
+Static website for Multi Plaza, Mission Veng Bazar, Aizawl, Mizoram.
 
-## Railway deployment
+## SEO included
+- Homepage title, description, canonical and Open Graph metadata
+- LocalBusiness structured data
+- Service and BreadcrumbList structured data on SEO landing pages
+- XML sitemap and robots.txt
+- Local landing pages for Xerox/photocopier, printer/scanner, repairs, office automation and printing services
+- Dedicated brand landing pages for Duplo, RICOH, TOSHIBA, Canon, ADELTA, HP and KONICA MINOLTA
+- Internal links between relevant Aizawl pages
+- Mobile-friendly responsive layout
 
-### Option 1 — GitHub (recommended)
-1. Create a new GitHub repository.
-2. Upload **all files inside this folder** (not the outer folder itself).
-3. In Railway, create a new project → **Deploy from GitHub Repo**.
-4. Select the repository.
-5. Railway will detect Node.js and run `npm start`.
-6. After deployment, open **Settings → Networking → Generate Domain**.
+## Product catalogue
+- 9 catalogue pages
+- 9 slots per page (3x3)
+- 81 product slots total
+- Product slots are intentionally blank for later product images/details
 
-### Option 2 — Upload repository
-If your Railway interface supports repository/file upload, upload the complete project with `package.json`, `server.js`, `index.html`, `style.css`, `script.js`, and `assets/`.
+## Deployment
+For Hostinger shared hosting, upload the website files into `public_html` with `index.html` directly inside `public_html`.
+For Railway, run `npm start`; the server uses the platform `$PORT`.
 
 ## Important
-- Do not delete `package.json` or `server.js`.
-- The server automatically uses Railway's `$PORT`.
-- You can replace the YouTube video URL in `index.html` later.
+SEO setup improves crawlability, relevance and local discoverability, but Google controls indexing and ranking. Use Google Search Console after deployment and submit `https://multiplazakk.com/sitemap.xml`. Keep business details, products, reviews and real-world brand/dealership information accurate.

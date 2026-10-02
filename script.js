@@ -40,7 +40,7 @@ function buildPagination() {
 function setProduct(product) {
   const message = document.getElementById('message');
   if (message) message.value = `I am interested in: ${product}`;
-  document.getElementById('contact')?.scrollIntoView({behavior:'smooth'});
+  document.getElementById('contact')?.scrollIntoView({behavior:'smooth',block:'start'}); setTimeout(() => document.getElementById('message')?.focus(), 450);
 }
 
 function sendEnquiry(e) {

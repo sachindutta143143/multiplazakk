@@ -50,7 +50,8 @@ function sendEnquiry(e) {
   const category = document.getElementById('category')?.value || '';
   const message = document.getElementById('message')?.value.trim() || '';
   const text = `Hello Multi Plaza,\n\nName: ${name}\nPhone: ${phone}\nRequirement: ${category}\nMessage: ${message || 'Please contact me regarding this requirement.'}`;
-  window.open(`https://wa.me/919856090557?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+  const url = `https://wa.me/919856090557?text=${encodeURIComponent(text)}`;
+  window.location.href = url;
 }
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -1,7 +1,1 @@
-MULTI PLAZA – MIZORAM SEO + FAST BUILD
-
-Upload all files/folders in this ZIP to the Railway project.
-
-SEO build includes the original Aizawl pages, a stronger Mizoram-wide hub, dedicated Mizoram product/service pages, and 9 catalogue pages. Catalogue pages are not included in sitemap and are intended for future product entries.
-
-Sitemap: https://multiplazakk.com/sitemap.xml
+DESIGN RESTORED build: based on the previous FAST website design. Includes 9 catalogue pages, 78 sitemap URLs, SEO pages in /seo folder with clean URLs via server routing, and 6 YouTube cards. Replace the existing Railway deployment with the contents of this folder. To connect videos, edit youtube-videos.js and put the 11-character YouTube video IDs in the six id fields. Do not create fake IDs.
